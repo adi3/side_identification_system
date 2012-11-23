@@ -1,0 +1,57 @@
+<!DOCTYPE CrossStudio_Project_File>
+<solution version="1" Name="Laser Simulator Module" >
+  <project Name="Laser Simulator Module" >
+    <configuration Target="MSP430F1611" msp430_identify_string="MSP430F1611" linker_memory_map_file="$(StudioDir)/targets/MSP430F1611.xml" project_directory="" project_type="Executable" msp430_debug_interface="JTAG" Name="Common" build_use_hardware_multiplier="Yes" />
+    <folder Name="Source Files" >
+      <configuration filter="c;h;s;asm;inc;s43" Name="Common" />
+      <file file_name="main.c" Name="main.c" >
+        <configuration c_user_include_directories=".;C:\\Documents and Settings\\admin\\Desktop\\adi\\Side Detector;C:\\Pumpkin\\Library\\MSP430\\Inc;C:\\Pumpkin\\Salvo\\Inc" Name="Debug" />
+      </file>
+      <file file_name="config.h" Name="config.h" />
+      <file file_name="counter.c" Name="counter.c" />
+      <file file_name="counter.h" Name="counter.h" />
+      <file file_name="driver.c" Name="driver.c" >
+        <configuration c_user_include_directories=".;C:\\Documents and Settings\\admin\\Desktop\\adi\\Side Detector;C:\\Pumpkin\\Library\\MSP430\\Inc;C:\\Pumpkin\\Salvo\\Inc" Name="Debug" />
+      </file>
+      <file file_name="driver.h" Name="driver.h" />
+      <file file_name="init.c" Name="init.c" />
+      <file file_name="init.h" Name="init.h" />
+      <file file_name="isr.c" Name="isr.c" />
+      <file file_name="isr.h" Name="isr.h" />
+      <file file_name="main.h" Name="main.h" />
+      <file file_name="msg.c" Name="msg.c" />
+      <file file_name="msg.h" Name="msg.h" />
+      <file file_name="signal.c" Name="signal.c" />
+      <file file_name="signal.h" Name="signal.h" />
+      <file file_name="ui.c" Name="ui.c" />
+      <file file_name="ui.h" Name="ui.h" />
+      <file file_name="periodic.c" Name="periodic.c" />
+      <file file_name="periodic.h" Name="periodic.h" />
+      <file file_name="salvocfg.h" Name="salvocfg.h" />
+    </folder>
+    <folder Name="System Files" >
+      <configuration filter="xml" Name="Common" />
+      <file file_name="$(StudioDir)/src/crt0.asm" Name="crt0.asm" />
+      <file file_name="$(StudioDir)/targets/section_placement.xml" Name="section_placement.xml" >
+        <configuration Name="Common" file_type="Section Placement" />
+      </file>
+    </folder>
+    <folder Name="Pumpkin Library" >
+      <file file_name="../../../../Pumpkin/Salvo/Lib/RA430-v1/libsalvolra430-t.hza" Name="libsalvolra430-t.hza" >
+        <configuration Name="Common" file_type="Library" />
+      </file>
+    </folder>
+    <folder Name="Pumpkin Salvo Source Files" >
+      <file file_name="../../../../../Pumpkin/Salvo/Src/salvomem.c" Name="salvomem.c" />
+    </folder>
+    <configuration Target="MSP430F1611" msp430_identify_string="MSP430F1611" linker_memory_map_file="$(StudioDir)/targets/MSP430F1611.xml" c_user_include_directories="." optimize_register_allocation="None" msp430_debug_interface="JTAG" Name="Debug" build_use_hardware_multiplier="Yes" />
+    <folder Name="Pumpkin Library Files" >
+      <file file_name="../../../../../Pumpkin/Library/MSP430/Src/USART_UART1_msg_ts.c" Name="USART_UART1_msg_ts.c" />
+      <file file_name="../../../../../Pumpkin/Library/MSP430/Src/USART_UART0.c" Name="USART_UART0.c" />
+      <file file_name="../../../../../Pumpkin/Library/MSP430/Src/USART_UART0_msg_ts.c" Name="USART_UART0_msg_ts.c" />
+      <file file_name="../../../../../Pumpkin/Library/MSP430/Src/USART_UART1.c" Name="USART_UART1.c" />
+    </folder>
+  </project>
+  <configuration Target="MSP430F1611" msp430_identify_string="MSP430F1611" linker_memory_map_file="$(StudioDir)/targets/MSP430F1611.xml" c_user_include_directories=".;C:\\Documents and Settings\\admin\\Desktop\\20111212_AA236A_Laser Simulator Module_Adi;C:/Pumpkin/Library/MSP430/Inc;C:/Pumpkin/Salvo/Inc" optimize_register_allocation="None" msp430_debug_interface="JTAG" build_debug_information="Yes" Name="Debug" build_use_hardware_multiplier="Yes" />
+  <configuration optimize_jump_chaining="Yes" optimize_block_locality="Yes" optimize_tail_merging="Yes" c_preprocessor_definitions="NDEBUG" optimize_cross_calling="Standard" build_debug_information="No" optimize_jump_threading="Yes" Name="Release" optimize_dead_code="Yes" optimize_cross_jumping="Yes" optimize_copy_propagation="Yes" />
+</solution>

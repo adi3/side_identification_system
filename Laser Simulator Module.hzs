@@ -1,0 +1,64 @@
+<!DOCTYPE CrossStudio_for_MSP430_Session_File>
+<session>
+ <Autos>
+  <Watches active="0" />
+ </Autos>
+ <Bookmarks/>
+ <Breakpoints/>
+ <ExecutionCountWindow/>
+ <Memory1>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" addressSpace="" />
+ </Memory1>
+ <Memory2>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" addressSpace="" />
+ </Memory2>
+ <Memory3>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" addressSpace="" />
+ </Memory3>
+ <Memory4>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" addressSpace="" />
+ </Memory4>
+ <Project>
+  <ProjectSessionItem path="Laser Simulator Module" name="unnamed" />
+  <ProjectSessionItem path="Laser Simulator Module;Laser Simulator Module" name="unnamed" />
+  <ProjectSessionItem path="Laser Simulator Module;Laser Simulator Module;Pumpkin Salvo Source Files" name="unnamed" />
+  <ProjectSessionItem path="Laser Simulator Module;Laser Simulator Module;Source Files" name="unnamed" />
+ </Project>
+ <Register1>
+  <RegisterWindow unsignedDisplays="" asciiDisplays="" octalDisplays="" openGroups="" visibleGroups="" decimalDisplays="" binaryDisplays="" />
+ </Register1>
+ <Register2>
+  <RegisterWindow unsignedDisplays="" asciiDisplays="" octalDisplays="" openGroups="CPU Registers" visibleGroups="CPU Registers" decimalDisplays="" binaryDisplays="" />
+ </Register2>
+ <Register3>
+  <RegisterWindow unsignedDisplays="" asciiDisplays="" octalDisplays="" openGroups="" visibleGroups="" decimalDisplays="" binaryDisplays="" />
+ </Register3>
+ <Register4>
+  <RegisterWindow unsignedDisplays="" asciiDisplays="" octalDisplays="" openGroups="" visibleGroups="" decimalDisplays="" binaryDisplays="" />
+ </Register4>
+ <SourceNavigatorWindow/>
+ <TraceWindow>
+  <Trace wrap="Yes" type="1" enabled="Yes" />
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" />
+ </Watch1>
+ <Watch2>
+  <Watches active="0" />
+ </Watch2>
+ <Watch3>
+  <Watches active="0" />
+ </Watch3>
+ <Watch4>
+  <Watches active="0" />
+ </Watch4>
+ <Files>
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" x="96" debugPath="C:\Documents and Settings\admin\Desktop\20111212_AA236A_Laser Simulator Module_Adi\signal.c" y="115" useHTMLEdit="0" path="C:\Documents and Settings\admin\Desktop\20111212_AA236A_Laser Simulator Module_Adi\signal.c" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" x="0" debugPath="c:\documents and settings\admin\desktop\20111212_aa236a_laser simulator module_adi\main.c" y="35" useHTMLEdit="0" path="c:\documents and settings\admin\desktop\20111212_aa236a_laser simulator module_adi\main.c" left="0" selected="0" name="unnamed" top="8" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" x="23" debugPath="C:\Documents and Settings\admin\Desktop\20111212_AA236A_Laser Simulator Module_Adi\ui.c" y="52" useHTMLEdit="0" path="C:\Documents and Settings\admin\Desktop\20111212_AA236A_Laser Simulator Module_Adi\ui.c" left="0" selected="0" name="unnamed" top="36" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" x="53" debugPath="C:\Documents and Settings\admin\Desktop\20111212_AA236A_Laser Simulator Module_Adi\msg.c" y="12" useHTMLEdit="0" path="C:\Documents and Settings\admin\Desktop\20111212_AA236A_Laser Simulator Module_Adi\msg.c" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" x="44" debugPath="C:\Documents and Settings\admin\Desktop\20111212_AA236A_Laser Simulator Module_Adi\main.h" y="18" useHTMLEdit="0" path="C:\Documents and Settings\admin\Desktop\20111212_AA236A_Laser Simulator Module_Adi\main.h" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" x="1" debugPath="C:\Documents and Settings\admin\Desktop\20111212_AA236A_Laser Simulator Module_Adi\init.c" y="13" useHTMLEdit="0" path="C:\Documents and Settings\admin\Desktop\20111212_AA236A_Laser Simulator Module_Adi\init.c" left="0" selected="1" name="unnamed" top="4" />
+ </Files>
+ <MSP430CrossStudioWindow activeProject="Laser Simulator Module" moduleClockControl="24791" autoConnectTarget="/TI MSP-FET430PIF" debugSearchFileMap="" fileDialogInitialDirectory="C:\Pumpkin\Salvo\Inc" fileDialogDefaultFilter="*.c;*.h" haltTimerA="false" autoConnectCapabilities="1407" haltTimerB="false" holdBasicTimer="false" generalClockControl="46" debugSearchPath="" buildConfiguration="Debug" />
+</session>
